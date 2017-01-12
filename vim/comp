@@ -1,0 +1,5 @@
+#! /bin/bash
+
+javac testClass.java
+
+gcc -o ctest cTest.c

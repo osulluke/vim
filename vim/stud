@@ -1,0 +1,4 @@
+#! /bin/bash
+
+okular /home/luke/Classes/School/Programming/Vim/Arnold-Robbins-Elbert-Hannah-Linda-Lamb-Learning-the-vi-and-Vim-Editors.pdf &
+
