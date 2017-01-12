@@ -19,6 +19,8 @@ public class testClass {
 		arrayMethod(4);
 		System.out.println();
 		arrayMethod(5);	
+		System.out.println();
+		extraFunction(Integer.parseInt(args[0]));
 
 		return;	
 	}
@@ -44,6 +46,14 @@ public class testClass {
 		return;	
 	}
 	
+	public static void extraFunction(int i) {
+		for (int j = 0; j<i; j++) {
+			System.out.println(i);
+		}
+
+		return;
+	}
+
 	public static void printLuke(int i) {
 		System.out.println("Print 'Luke' " + i + " times.");
 		for(int j = 0; j<i; j++){
