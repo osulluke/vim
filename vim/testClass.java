@@ -21,6 +21,7 @@ public class testClass {
 		arrayMethod(5);	
 		System.out.println();
 		extraFunction(Integer.parseInt(args[0]));
+		anotherFunct(Integer.parseInt(args[0]));
 
 		return;	
 	}
@@ -46,6 +47,13 @@ public class testClass {
 		return;	
 	}
 	
+	public static void anotherFunct(int i) {
+		for (int j = 0; j<i*i; j++) {
+			System.out.println("anotherFunct operating; j = " + j + " i*i = " + i*i);
+		}
+		return;
+	}
+
 	public static void extraFunction(int i) {
 		for (int j = 0; j<i; j++) {
 			System.out.println(i);
