@@ -33,4 +33,14 @@ Capital 'B' moves back whole words vs 'b' that moves backwards words, but
 also counts puntuation. 'W' and 'w' have a similar effect.
 
 The '.' command will repeat whatever was the last command executed, whether
-it was 'p', 'yy', 'dd', or whatever. 
+it was 'p', 'yy', 'dd', or whatever.
+
+The 'u' command will undo whatever was the last command that was given - regardless of where the cursor currently is - how convinient.
+
+MORE WAYS TO INSERT TEXT: "using 'A' to do it at the end of the line.
+At the beginning of the line, by using 'I'. What are some other ways?
+'O' will insert a new blank line above the line where the cursor is currently located!
+Small 'o' will insert a blank line below the line where the cursor is located.
+Both of these last lines are very similar the the 'i' and 'a' command, which both insert text relative to the cursor; i.e. either before or after.
+
+  
