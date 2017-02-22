@@ -13,9 +13,24 @@ lines, and insert characters.
 
 With a screen editor you can scroll the page,
 
-by what line? This line.
+This line. by what line? by what line?by what line?by what line?by what line?by what line?by what line?by what line?by what line?
+
+'yy' will 'yank' an entire line of text and then using 'p', you can paste it
+as many times as you like, as below:
+With what? this text right here. done. overstriked with 'R'. Now the wrap
+With what? this text right here. done. overstriked with 'R'. Now the wrap
+With what? this text right here. done. overstriked with 'R'. Now the wrap
+With what? this text right here. done. overstriked with 'R'. Now the wrap
 
 With a screen editor you can scroll the page, 
-With what? this text right here. done. overstriked with 'R'.
+With what? this text right here. done. overstriked with 'R'. Now the wrap
+margin is in effect, and will add new lines as soon as it gets within 10
+characters of the edge of the line. It doesn't, however, affect lines that
+have already been written.
 
-is an attempt to replace the first 5 characters of a line with 's' 
+is an attempt to replace the first 5 characters of a line with 's'
+Capital 'B' moves back whole words vs 'b' that moves backwards words, but
+also counts puntuation. 'W' and 'w' have a similar effect.
+
+The '.' command will repeat whatever was the last command executed, whether
+it was 'p', 'yy', 'dd', or whatever. 
