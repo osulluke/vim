@@ -51,4 +51,8 @@ Not really...
 
 you can scroll
 the page, move the cursor, delete
-lines, and insert characters.
+Shift-I inserts text at the beginning of a line; lines, and insert characters. Shift-A appends text to the end of the line.
+
+Writing papers a sentence at a time can help convey ideas very simply.  When it comes time to join them all together, however, you can use a capital 'J'.  This will then link every sentence in a 'paragraph' together.  It should be done before a set of text is pasted into a word processor.  This makes it easy to edit sentences and use a program like git to keep track of ideas.  Pretty cool, huh? 
+Writing papers a sentence at a time can help convey ideas very simply.
+
